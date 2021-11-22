@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#maintainance": {
+    "children": [
+      "rich-text#title-maintainance"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-maintainance": {
+    "props": {
+      "text": "# Maintainance. XD"
+    }
+  }
+}

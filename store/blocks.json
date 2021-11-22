@@ -1,0 +1,7 @@
+{
+  "store.custom#maintainance": {
+    "blocks": [
+      "flex-layout.row#maintainance"
+    ]
+  }
+}

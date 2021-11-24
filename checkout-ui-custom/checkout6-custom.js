@@ -1,7 +1,5 @@
-<script>
-  (function() {
+(function() {
     if (location.pathname !== '/maintenance') {
       location.href = '/maintenance'
     }
   })()
-</script>

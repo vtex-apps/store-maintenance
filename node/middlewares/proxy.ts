@@ -1,14 +1,15 @@
-export async function proxy(ctx: Context, next: () => Promise<any>) {
-  let isMaintainance = ctx.originalUrl === '/maintainance'
+export async function proxy(ctx: any, next: () => Promise<any>) {
+  let isMaintenance = ctx.originalUrl === '/maintenance'
 
   console.log('## ctx.originalUrl', ctx.originalUrl)
-  console.log('## isMaintainance', isMaintainance)
+  console.log('## isMaintenance', isMaintenance)
 
-  if (!isMaintainance) {
-    ctx.redirect('/maintainance')
+  if (!isMaintenance) {
+    ctx.status = 302
+    ctx.redirect('/maintenance')
   }
   else {
-    ctx.body = 'maintainance page'
+    ctx.body = 'The site is under maintenance'
   }
   await next()
 }

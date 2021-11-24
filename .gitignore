@@ -52,5 +52,11 @@ entrypoints.json
 jsconfig.json
 
 .DS_Store
+.git/
+**/node_modules/**
+.editorconfig
+.eslintrc
+.gitignore
+
 
 **/yarn-error.log

@@ -1,7 +1,48 @@
 {
-  "store.custom#maintainance": {
+  "store.maintenance": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
     "blocks": [
-      "flex-layout.row#maintainance"
+      "flex-layout.row#maintenance"
     ]
+  },
+  "header#empty": {
+    "blocks": [
+      "header-layout.desktop#empty",
+      "header-layout.mobile#empty"
+    ]
+  },
+  "header-layout.desktop#empty": {
+    "children": []
+  },
+  "header-layout.mobile#empty": {
+    "children": []
+  },
+  "footer#empty": {
+    "blocks": [
+      "footer-layout.desktop#empty",
+      "footer-layout.mobile#empty"
+    ]
+  },
+  "footer-layout.desktop#empty": {
+    "children": []
+  },
+  "footer-layout.mobile#empty": {
+    "children": []
+  },
+  "flex-layout.row#maintenance": {
+    "children": [
+      "rich-text#title-maintenance"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-maintenance": {
+    "props": {
+      "text": "# The site is under maintenance. Please came back later"
+    }
   }
 }

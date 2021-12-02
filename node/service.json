@@ -1,0 +1,16 @@
+{
+  "memory": 768,
+  "cpu": 50,
+  "ttl": 10,
+  "timeout": 20,
+  "minReplicas": 4,
+  "maxReplicas": 50,
+  "workers": 1,
+  "routes": {
+    "proxy": {
+      "path": "/path*",
+      "public": true,
+      "smartcache": true
+    }
+  }
+}

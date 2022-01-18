@@ -1,5 +1,5 @@
 (function() {
-    if (location.pathname !== '/maintenance') {
+    if (!location.pathname.endsWith('/maintenance')) {
       location.href = '/maintenance'
     }
   })()

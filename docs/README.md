@@ -24,4 +24,4 @@ The app then will redirect any user browsing the page to /maintenance.
 If you have no content at /maintenance, this app will make sure to render at least a minimal message.
 It's up to you to design the /maintenance page the way you like to have it.
 
-We do offer a theme that takes care of the basics. You can clone it from [here] and install it alongside your native store theme. This is not mandatory to do, but offers a basic layout that you can start working on.
+We do offer a theme that takes care of the basics. You can clone it from [here](https://github.com/vtex-apps/store-maintenance-theme) and install it alongside your native store theme. This is not mandatory to do, but offers a basic layout that you can start working on.

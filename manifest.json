@@ -1,7 +1,7 @@
 {
   "name": "store-maintenance",
   "vendor": "vtex",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "title": "Maintenance Mode application",
   "description": "Installing this app will show a maintenance page on the entire site",
   "mustUpdateAt": "2021-11-23",

@@ -1,3 +1,9 @@
+## 🚨 Disclaimer - Template Application
+>:warning: **This project is not maintained by VTEX, and this app is provided as a working example on how this feature can be implemented. Improvements and fixes will be on the implementation team side.**
+>
+>All template applications provided are developed by the VTEX community, you can use them freely.
+
+&nbsp;
 # VTEX Store Maintenance
 ## Description
 
